@@ -1,0 +1,96 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2849910.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  color:rgb(126,7,7);
+  margin: 2px;
+}
+
+header {
+  font-size: 50px;
+  color:rgb(186,9,9);
+  font-family: "Creepster", system-ui;
+  text-align: center;
+}
+
+.entrada {
+  font-family: "Modern Antiqua", serif;
+  background:rgb(105,6,6);
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.descricao {
+  font-size: 20px;
+}
+
+.primeiro {
+  margin-right: 20px;
+}
+
+.line-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.line {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  color:rgb(255,0,0);
+  font-size: 24px; 
+  animation: scroll 5s linear infinite;
+
+}
+
+@keyframes scroll {
+  120% { transform: translateX(110%); }
+  100% { transform: translateX(-110%); }
+}
+
+img{
+  height: 150px;
+}
+
+.filmes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+  padding-left:20px;
+  padding-right:20px;
+  font-size:30px;
+  font-family: "Modern Antiqua", serif;
+  color:red;
+  
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover {
+  opacity: 1.0;
+  border: solid 3px white;
+  border-radius:20px;
+}
+
+.logo{
+  position: relative;
+  top: -68px;
+  left: -640px;
+  width: 85px;
+  height: auto;
+}
